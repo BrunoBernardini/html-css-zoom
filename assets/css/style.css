@@ -14,18 +14,26 @@ header .btn{
 
 /* Main */
 
-.grid{
-  width: 97%;
+main{
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
-.grid .grid-cell{
-  width: 250px;
+main .grid-cell{
+  width: 244px;
   margin: 6px 3px;
+  position: relative;
 }
 
 .grid-cell img{
   width: 100%;
+}
+
+.grid-cell p{
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  background-color: rgba(74, 74, 74, .8);
+  padding: 5px;
 }
