@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: black;
   color: white;
   font-size: 14px;
@@ -20,6 +20,7 @@ header{
 main{
   height: calc(100vh - 160px);
   overflow-y: auto;
+  justify-content: center;
 }
 
 footer{
