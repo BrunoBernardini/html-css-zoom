@@ -15,11 +15,17 @@ header .btn{
 /* Main */
 
 .grid{
-  width: 95%;
-  justify-content: center;
+  width: 97%;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .grid .grid-cell{
-  width: 300px;
+  width: 250px;
+  margin: 6px 3px;
+}
+
+.grid-cell img{
+  width: 100%;
 }
