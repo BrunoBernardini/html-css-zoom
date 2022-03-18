@@ -4,6 +4,25 @@
   clear: both;
 }
 
+/* Flex utils */
+
+.d-flex{
+  display: flex;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
 /* DEBUG */
 
 .debug{
