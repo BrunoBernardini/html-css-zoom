@@ -16,3 +16,13 @@ header{
   justify-content: flex-end;
   align-items: flex-start;
 }
+
+main{
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+}
+
+footer{
+  height: 80px;
+  background-color: #222222;
+}
