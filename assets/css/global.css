@@ -11,6 +11,14 @@ body{
   font-size: 14px;
 }
 
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: inline-block;
+}
+
 header{
   height: 80px;
   justify-content: flex-end;
@@ -20,9 +28,14 @@ header{
 main{
   height: calc(100vh - 160px);
   overflow-y: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 footer{
   height: 80px;
   background-color: #222222;
+  align-items: center;
+  padding-left: 10px;
 }
