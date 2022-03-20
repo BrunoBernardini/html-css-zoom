@@ -46,10 +46,23 @@ footer li i{
   margin-bottom: 7px;
 }
 
+
+footer li.active i{
+  color: #4bc800;
+}
+
 footer li .fa-chevron-up{
   font-size: 10px;
 }
 
 footer .btn-left{
   margin-right: 20px;
+}
+
+.footer-right{
+  background-color: #4a4a4a;
+  color: red;
+  height: 100%;
+  padding: 0 20px;
+  cursor: pointer;
 }
