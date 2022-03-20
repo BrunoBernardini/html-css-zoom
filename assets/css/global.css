@@ -19,8 +19,12 @@ ul li{
   display: inline-block;
 }
 
-header{
+header,
+footer{
   height: 80px;
+}
+
+header{
   justify-content: flex-end;
   align-items: flex-start;
 }
@@ -34,7 +38,6 @@ main{
 }
 
 footer{
-  height: 80px;
   background-color: #222222;
   align-items: center;
   padding-left: 10px;

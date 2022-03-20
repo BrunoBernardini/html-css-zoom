@@ -39,6 +39,7 @@ footer li{
   flex-direction: row;
   text-align: center;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 footer li i{
